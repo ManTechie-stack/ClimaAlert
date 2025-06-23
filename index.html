@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClimaAlert NG - Weather Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2a5298" />
+</head>
+<body>
+  <div class="container">
+    <h1>ClimaAlert NG</h1>
+    <input type="text" id="cityInput" placeholder="Enter Nigerian City (e.g., Lagos, Enugu)" />
+    <button onclick="getWeather()">Check Weather</button>
+    <div class="weather-result" id="weatherDisplay"></div>
+    <div class="forecast" id="forecastDisplay"></div>
+    <p class="slogan">"Your Local Sky. Your Daily Guide."</p>
+  </div>
+  <footer>
+    &copy; 2025 Manuel Technologies. All rights reserved.
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
